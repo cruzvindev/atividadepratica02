@@ -1,0 +1,37 @@
+package atividadepratica02;
+import java.util.Scanner;
+public class emprestimo {
+	
+	
+	
+	
+	
+	Scanner sc = new Scanner(System.in);
+	
+	String nomeUsuario;
+	int idade;
+	double valorEmprestimo;
+	double percentualJurosMes;
+	int mesesParaPagar;
+	
+	
+	
+	public void imprimir() {
+		System.out.println(nomeUsuario);
+		System.out.println(idade);
+		System.out.println(valorEmprestimo);
+		System.out.println(percentualJurosMes);
+		System.out.println(mesesParaPagar);
+		
+	}
+	
+	public void calcularEmprestimo() {
+		
+		
+		
+		
+	}
+}
+	
+
+

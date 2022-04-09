@@ -1,0 +1,25 @@
+package atividadepratica02;
+
+public class emprestimo {
+	
+	String nomeUsuario;
+	int idade;
+	double valorEmprestimo;
+	double percentualJurosMes;
+	int mesesParaPagar;
+	
+	
+	
+	public void imprimir() {
+		System.out.println(nomeUsuario);
+		System.out.println(idade);
+		System.out.println(valorEmprestimo);
+		System.out.println(percentualJurosMes);
+		System.out.println(mesesParaPagar);
+		
+	}
+	
+	
+	
+
+}

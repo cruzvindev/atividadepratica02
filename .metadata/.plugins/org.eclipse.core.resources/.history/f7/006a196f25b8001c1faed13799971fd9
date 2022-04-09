@@ -1,0 +1,47 @@
+package atividadepratica02;
+import java.util.Scanner;
+public class emprestimo {
+	
+	
+	
+	
+	
+	Scanner sc = new Scanner(System.in);
+	
+	String nomeUsuario;
+	int idade;
+	double valorEmprestimo;
+	double percentualJurosMes;
+	int mesesParaPagar;
+	
+	
+	
+	public void imprimir() {
+		System.out.println(nomeUsuario);
+		System.out.println(idade);
+		System.out.println(valorEmprestimo);
+		System.out.println(percentualJurosMes);
+		System.out.println(mesesParaPagar);
+		
+	}
+	/* O valor do empréstimo é calculado seguindo a seguintes regras: caso a idade seja maior ou igual a
+	  18 e menor do que 23, use a fórmula: valorEmprestimo += (valorEmprestimo / mesesParaPagar) / * 
+	  percentualJurosMes, 
+	  quando for superior a 23 e menor ou igual a 33, use a fórmula (valorEmprestimo * 10)/100
+	public void calcularEmprestimo()*/ {
+		
+		if(idade>=18 && idade<23) {
+			
+			valorEmprestimo += (valorEmprestimo / mesesParaPagar) * percentualJurosMes;
+		} 
+			if(idade>23 && idade <= 33){
+			valorEmprestimo = (valorEmprestimo * 10)/100;
+		}
+		
+		
+		
+	}
+}
+	
+
+
